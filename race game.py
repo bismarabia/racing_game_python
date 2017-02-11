@@ -24,19 +24,19 @@ clock = pygame.time.Clock()
 path = []
 for i in range(1,28):
      if i>=10:
-          a = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\' + str(i) + '.PNG')
+          a = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\' + str(i) + '.PNG')
      else:
-          a = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\0' + str(i) + '.PNG')
+          a = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\0' + str(i) + '.PNG')
      path.append(a)
 
-line1 = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\line1.PNG')
-line2 = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\line2.PNG')
-mainCar = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\racing_car.PNG')
-orangeCar = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\orange car.PNG')
-blueCar = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\blue car.PNG')
-yellowCar = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\yellow car.PNG')
-greenCar = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\green car.PNG')
-coin = pygame.image.load('F:\\LEARN\\Programming\\Python\\racing game\\cars\\coin.PNG')
+line1 = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\line1.PNG')
+line2 = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\line2.PNG')
+mainCar = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\racing_car.PNG')
+orangeCar = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\orange car.PNG')
+blueCar = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\blue car.PNG')
+yellowCar = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\yellow car.PNG')
+greenCar = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\green car.PNG')
+coin = pygame.image.load('E:\\LEARN\\Programming & Projects\\Python\\racing game\\cars\\coin.PNG')
 
 cars = [blueCar, orangeCar, greenCar, yellowCar]
 line = [line1, line2]
@@ -122,7 +122,7 @@ def quitgame():
      quit()
      
 def game_intro():
-
+     
      while True:
           for event in pygame.event.get():
                if event.type == pygame.QUIT:
